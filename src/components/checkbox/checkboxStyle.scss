@@ -1,0 +1,28 @@
+.checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 24px;
+  width: 24px;
+  border-radius: 2px;
+  background-color: #e5e5e5;
+  cursor: pointer;
+
+  .checked {
+    height: 18px;
+    width: 18px;
+    background: #007eff;
+  }
+
+  &.disabled {
+    cursor: normal;
+    height: 18px;
+    width: 18px;
+    border-radius: 2px;
+    background: #e5e5e5;
+
+    .checked {
+      background: #007eff;
+    }
+  }
+}

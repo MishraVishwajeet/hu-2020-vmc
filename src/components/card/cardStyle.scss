@@ -1,0 +1,45 @@
+.card {
+  width: 255px;
+  margin: 0 8px;
+  background: #ffffff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  padding: 8px;
+  cursor: pointer;
+
+  .cardHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .cardTitle {
+      font-weight: bold;
+      font-size: 32px;
+    }
+
+    .cardName {
+      font-weight: 500;
+    }
+
+    .cardRadioBtn {
+      width: 20px;
+      height: 20px;
+      background-color: #f9f9fa;
+      border-radius: 50%;
+      border: 1px solid #a0a4a8;
+      &.selected {
+        background-color: blue;
+      }
+    }
+  }
+
+  .cardBody {
+    margin-top: 2px;
+
+    .cardContent {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 5px;
+    }
+  }
+}

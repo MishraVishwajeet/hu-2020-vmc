@@ -1,0 +1,30 @@
+ 
+
+.estimatesContainer {
+  min-height: 300px;
+  margin-top: 26px;
+  font-weight: 600;
+}
+
+.estimates {
+  display: grid;
+  grid-template-rows: 1fr auto 1fr;
+}
+
+.estimatesTitle {
+  font-size: 28px;
+}
+
+.estimatesDetail {
+  margin-top: 16px;
+}
+
+.estimate-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.estimatesTotal {
+  text-align: right;
+}

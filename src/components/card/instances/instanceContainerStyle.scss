@@ -1,0 +1,27 @@
+.instanceContainer {
+  margin-top: 43px;
+
+  .instances {
+    display: flex;
+  }
+
+  .configurationContainer {
+    margin-top: 46px;
+
+    .configurationHeader {
+      font-size: 24px;
+      font-weight: 500;
+    }
+
+    .configurations {
+      display: flex;
+      margin-top: 15px;
+    }
+
+    .createConf {
+      font-size: 24px;
+      font-weight: 500;
+      margin-top: 46px;
+    }
+  }
+}

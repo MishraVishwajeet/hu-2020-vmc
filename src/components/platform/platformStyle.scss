@@ -1,0 +1,42 @@
+ 
+
+.platformOuterContainer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+
+  .paltform-btn {
+    text-align: right;
+  }
+
+  span {
+    font-weight: 600; 
+  }
+}
+
+.border-style {
+  border: 1px solid #007eff;
+}
+
+.flexContent {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  grid-gap: 6px;
+
+  .platformImage {
+    width: 64px;
+    height: 64px;
+    background-color: #c4c4c4;
+    border-radius: 4px;
+  }
+
+  .platformTitle {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .platformDesc {
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,15 @@
+.instance {
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: 600;
+  border: solid 2px rgba(0, 0, 0, 0.29);
+  cursor: pointer;
+  color: black;
+  background-color: white;
+  margin-right: 10px;
+
+  &.selected {
+    border: solid 2px #007eff;
+    color: #007eff;
+  }
+}

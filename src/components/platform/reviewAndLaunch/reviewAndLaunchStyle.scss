@@ -1,0 +1,50 @@
+.reviewContainer {
+  margin-top: 40px;
+
+  .subComponent {
+    .paltform-btn {
+      display: none;
+    }
+
+    .cardRadioBtn,
+    .cardTitle {
+      display: none;
+    }
+
+    .cardName {
+      font-weight: 600;
+      font-size: 24px;
+    }
+  }
+
+  .buttonContainer {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .subComponentHeader {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+
+    .title {
+      font-weight: 600;
+      font-size: 32px;
+    }
+
+    .edit {
+      color: #007eff;
+      font-weight: bold;
+      font-size: 16px;
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+  }
+
+  .inputContainer {
+    .inputBox {
+      width: 40%;
+    }
+  }
+}
